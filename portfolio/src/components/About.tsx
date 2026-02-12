@@ -27,12 +27,8 @@ const About = () => {
                         className="relative"
                     >
                         <div className="relative z-10 bg-cyber-gray/30 p-1 rounded-lg border border-cyber-green/20 backdrop-blur-md">
-                            {/* Placeholder for user image if available, otherwise a cyber avatar */}
-                            <div className="aspect-square bg-[#0a0a0a] rounded-lg overflow-hidden flex items-center justify-center border border-gray-800">
-                                <User size={120} className="text-cyber-green opacity-50 absolute" />
-                                <div className="absolute inset-0 bg-gradient-to-t from-cyber-black via-transparent to-transparent"></div>
-                                {/* If user provided an image, we can use it here. For now default holder */}
-                                {/* <img src="/path/to/image.jpg" className="w-full h-full object-cover opacity-80 mix-blend-overlay hover:mix-blend-normal transition-all duration-500" /> */}
+                            <div className="aspect-square bg-[#0a0a0a] rounded-lg overflow-hidden flex items-center justify-center border border-gray-800 relative">
+                                <img src="/hats.jpeg" className="w-full h-full object-cover opacity-80 hover:mix-blend-normal transition-all duration-500" />
                                 <div className="absolute bottom-4 left-4 p-4 border-l-2 border-cyber-green">
                                     <p className="text-cyber-cyan font-mono text-sm">Target: Parikshit Sharma</p>
                                     <p className="text-gray-400 text-xs">Role: Full Stack Developer</p>

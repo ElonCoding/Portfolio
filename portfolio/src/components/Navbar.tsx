@@ -34,7 +34,12 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex-shrink-0 flex items-center gap-2">
-                        <img src="/logo.png" alt="Parikshit Sharma" className="h-10 md:h-12 w-auto object-contain hover:grayscale-0 transition-all duration-300" />
+                        <div className="flex flex-col">
+                            <span className="text-xl md:text-2xl font-bold text-white tracking-tighter">
+                                PARIKSHIT<span className="text-cyber-green">_</span>SHARMA
+                            </span>
+                            <div className="h-0.5 w-full bg-gradient-to-r from-cyber-green to-transparent"></div>
+                        </div>
                     </div>
 
                     <div className="hidden md:block">
